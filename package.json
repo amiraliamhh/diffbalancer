@@ -21,7 +21,10 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.0.0",
-    "fastify": "^2.7.1"
+    "fastify": "^2.7.1",
+    "request": "^2.88.0",
+    "useragent": "^2.3.0",
+    "yamlparser": "0.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -35,6 +38,7 @@
     "@babel/preset-stage-3": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
     "@babel/runtime": "^7.4.5",
-    "@types/dotenv": "^6.1.1"
+    "@types/dotenv": "^6.1.1",
+    "@types/useragent": "^2.1.1"
   }
 }
